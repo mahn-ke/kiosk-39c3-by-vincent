@@ -1,9 +1,9 @@
 FROM node:25-alpine
 
 WORKDIR /app
-COPY ./ /app
+COPY ./wwwroot /app
 
 RUN apk add --no-cache curl \
-    && npm ci
+    && npm i http-server
 
-CMD ["npm", "run", "start"]
+CMD ["npx", "http-server"]
