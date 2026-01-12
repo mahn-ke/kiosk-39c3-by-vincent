@@ -1,0 +1,6 @@
+{
+    "name": "kiosk-39c3-by-vincent",
+    "scripts": {
+        "start": "node main.js"
+    }
+}
