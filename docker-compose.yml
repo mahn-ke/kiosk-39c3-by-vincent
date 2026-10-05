@@ -3,7 +3,7 @@ version: "3.8"
 
 services:
   app:
-    image: ghcr.io/mahn-ke/kiosk-39c3-by-vincent:latest@sha256:d5e15f8777623dd5e667874da4d48d7227541e3929ba415845c817c422d4d81a
+    image: ghcr.io/mahn-ke/kiosk-39c3-by-vincent:latest@sha256:d75edecc1d6e4be83e2ffe276305d0feef276b2f8ac290331f8ae5fcab93aab9
     restart: on-failure:5
     environment:
       - PORT=3011
